@@ -5,6 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Velora — luxury fine dining restaurant. Premium cuisine, master chefs, unforgettable flavors.">
 
     <title>Velora Restaurant</title>
 
@@ -25,111 +26,46 @@
 
     <nav>
 
-        <div class="logo">
+        <div class="logo">VELORA</div>
 
-            VELORA
+        <ul class="nav-links">
 
-        </div>
-
-        <ul>
-
-            <li><a href="#">Home</a></li>
-
-            <li><a href="#">Menu</a></li>
-
-            <li><a href="#">About</a></li>
-
-            <li><a href="#">Gallery</a></li>
-
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#reservation">Contact</a></li>
 
         </ul>
 
-        <button>
+        <button class="book-btn">Book Table</button>
 
-            Book Table
-
+        <button class="menu-btn" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
         </button>
 
     </nav>
 
-    <section class="hero">
+    <section class="hero" id="home">
 
         <div class="left">
 
-            <p class="tag">
+            <span class="tag">Luxury Fine Dining</span>
 
-                Luxury Dining Experience
-
-            </p>
-
-            <h1>
-
-                Taste The Future Of Fine Dining
-
-            </h1>
+            <h1 class="title">Taste The Future Of Fine Dining</h1>
 
             <p class="desc">
-
                 Crafted with passion, served with elegance.
-                Experience unforgettable flavors in a luxurious atmosphere.
-
+                Experience unforgettable flavors in a premium atmosphere,
+                brought to life by world-class chefs using the freshest ingredients.
             </p>
 
             <div class="buttons">
 
-                <button class="gold">
-
-                    Order Now
-
-                </button>
-
-                <button class="glass">
-
-                    View Menu
-
-                </button>
-
-            </div>
-
-        </div>
-
-        <div class="right">
-
-            <div class="circle"></div>
-
-            <img src="assets/pngwing.com (2).png">
-
-        </div>
-
-    </section>
-
-    <section class="hero">
-
-        <div class="left">
-
-            <span class="tag">
-                Luxury Fine Dining
-            </span>
-
-            <h1 class="title">
-                Taste The Future
-            </h1>
-
-            <p class="desc">
-                Premium cuisine crafted by world class chefs using fresh ingredients
-                and unforgettable flavors.
-            </p>
-
-            <div class="buttons">
-
-                <button class="gold">
-                    Order Now
-                </button>
-
-                <button class="glass">
-                    Explore Menu
-                </button>
+                <button class="gold">Order Now</button>
+                <button class="glass">Explore Menu</button>
 
             </div>
 
@@ -142,22 +78,18 @@
         </div>
 
     </section>
-    <section class="menu-section">
+
+    <section class="menu-section" id="menu">
 
         <h2>Signature Menu</h2>
 
-        <p class="sub">
-            Fresh • Delicious • Premium
-        </p>
+        <p class="sub">Fresh • Delicious • Premium</p>
 
         <div class="filter">
 
             <button class="active" data-filter="all">All</button>
-
             <button data-filter="burger">Burger</button>
-
             <button data-filter="pizza">Pizza</button>
-
             <button data-filter="drink">Drink</button>
 
         </div>
@@ -165,98 +97,62 @@
         <div class="menu-grid">
 
             <div class="card burger">
-
-                <img src="assets/pngwing.com.png">
-
+                <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80" alt="Classic Burger" loading="lazy">
                 <h3>Classic Burger</h3>
-
                 <span>$15</span>
-
                 <button>Add To Cart</button>
-
             </div>
 
             <div class="card pizza">
-
-                <img src="assets/pngwing.com (2).png">
-
+                <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=600&q=80" alt="Italian Pizza" loading="lazy">
                 <h3>Italian Pizza</h3>
-
                 <span>$22</span>
-
                 <button>Add To Cart</button>
-
             </div>
 
             <div class="card drink">
-
-                <img src="assets/das.png">
-
+                <img src="https://images.unsplash.com/photo-1632995561645-86a7777d3e7a?auto=format&fit=crop&w=600&q=80" alt="Mojito" loading="lazy">
                 <h3>Mojito</h3>
-
                 <span>$8</span>
-
                 <button>Add To Cart</button>
-
             </div>
 
             <div class="card burger">
-
-                <img src="assets/pngwing.com (1).png">
-
+                <img src="https://images.unsplash.com/photo-1610440042657-612c34d95e9f?auto=format&fit=crop&w=600&q=80" alt="Double Beef Burger" loading="lazy">
                 <h3>Double Beef</h3>
-
                 <span>$19</span>
-
                 <button>Add To Cart</button>
-
             </div>
 
             <div class="card pizza">
-
-                <img src="assets/asd.png">
-
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80" alt="Cheese Pizza" loading="lazy">
                 <h3>Cheese Pizza</h3>
-
                 <span>$18</span>
-
                 <button>Add To Cart</button>
-
             </div>
 
             <div class="card drink">
-
-                <img src="assets/pngwing.com (3).png">
-
+                <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" alt="Premium Coffee" loading="lazy">
                 <h3>Premium Coffee</h3>
-
                 <span>$7</span>
-
                 <button>Add To Cart</button>
-
             </div>
 
         </div>
 
     </section>
-    <!-- =========================
-PART 4 : ABOUT SECTION
-Paste after Menu Section
-========================= -->
 
-    <section class="about">
+    <section class="about" id="about">
 
         <div class="about-left">
 
             <div class="image-box">
 
-                <img src="assets/dgfdf.png" alt="Chef">
+                <img src="https://images.unsplash.com/photo-1709837167719-1ff90bdbbac5?auto=format&fit=crop&w=800&q=80" alt="Chef preparing a dish" loading="lazy">
 
                 <div class="exp">
-
                     <h2>15+</h2>
                     <span>Years</span>
-
                 </div>
 
             </div>
@@ -265,83 +161,50 @@ Paste after Menu Section
 
         <div class="about-right">
 
-            <span class="small-title">
-                About Velora
-            </span>
+            <span class="small-title">About Velora</span>
 
-            <h2>
-                Crafted With Passion Since 2010
-            </h2>
+            <h2>Crafted With Passion Since 2010</h2>
 
             <p>
-
-                Every meal is prepared using premium ingredients,
-                world-class recipes and unforgettable presentation.
-
-                Experience luxury dining unlike anywhere else.
-
+                Every meal is prepared using premium ingredients, world-class recipes
+                and unforgettable presentation. Experience luxury dining unlike anywhere else.
             </p>
 
             <div class="about-grid">
 
                 <div class="about-card">
-
                     <h3 id="customerCounter">0</h3>
-
                     <p>Happy Customers</p>
-
                 </div>
 
                 <div class="about-card">
-
                     <h3 id="dishCounter">0</h3>
-
                     <p>Signature Dishes</p>
-
                 </div>
 
                 <div class="about-card">
-
                     <h3 id="chefCounter">0</h3>
-
                     <p>Professional Chefs</p>
-
                 </div>
 
                 <div class="about-card">
-
                     <h3 id="awardCounter">0</h3>
-
                     <p>Awards Won</p>
-
                 </div>
 
             </div>
 
-            <button class="gold">
-
-                Learn More
-
-            </button>
+            <button class="gold">Learn More</button>
 
         </div>
 
     </section>
-  
-    <!-- =========================
-PART 5 : MEET OUR CHEFS
-Paste after About Section
-========================= -->
 
-    <section class="chefs">
+    <section class="chefs" id="chefs">
 
-        <span class="section-tag">
-            Our Experts
-        </span>
+        <span class="section-tag">Our Experts</span>
 
-        <h2 class="section-title">
-            Meet Our Master Chefs
-        </h2>
+        <h2 class="section-title">Meet Our Master Chefs</h2>
 
         <p class="section-desc">
             Passionate professionals dedicated to creating unforgettable dining experiences.
@@ -350,188 +213,113 @@ Paste after About Section
         <div class="chef-grid">
 
             <div class="chef-card">
-
                 <div class="chef-inner">
-
                     <div class="chef-front">
-
-                        <img src="assets/chef1.png" alt="Chef Marco">
-
+                        <img src="https://images.unsplash.com/photo-1759521296144-fe6f2d2dc769?auto=format&fit=crop&w=600&h=700&q=80" alt="Chef Marco Rossi" loading="lazy">
                     </div>
-
                     <div class="chef-back">
-
                         <h3>Marco Rossi</h3>
-
                         <span>Executive Chef</span>
-
-                        <p>
-                            15+ years of experience in Italian fine dining.
-                        </p>
-
+                        <p>15+ years of experience in Italian fine dining.</p>
                         <div class="chef-social">
-
-                            <a href="#">IG</a>
-                            <a href="#">FB</a>
-                            <a href="#">X</a>
-
+                            <a href="#" aria-label="Instagram">IG</a>
+                            <a href="#" aria-label="Facebook">FB</a>
+                            <a href="#" aria-label="X / Twitter">X</a>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
 
             <div class="chef-card">
-
                 <div class="chef-inner">
-
                     <div class="chef-front">
-
-                        <img src="assets/chef2.png" alt="Chef Olivia">
-
+                        <img src="https://images.unsplash.com/photo-1701878198293-d1f3641efdb3?auto=format&fit=crop&w=600&h=700&q=80" alt="Chef Olivia Stone" loading="lazy">
                     </div>
-
                     <div class="chef-back">
-
                         <h3>Olivia Stone</h3>
-
                         <span>Pastry Chef</span>
-
-                        <p>
-                            Award-winning desserts crafted with perfection.
-                        </p>
-
+                        <p>Award-winning desserts crafted with perfection.</p>
                         <div class="chef-social">
-
-                            <a href="#">IG</a>
-                            <a href="#">FB</a>
-                            <a href="#">X</a>
-
+                            <a href="#" aria-label="Instagram">IG</a>
+                            <a href="#" aria-label="Facebook">FB</a>
+                            <a href="#" aria-label="X / Twitter">X</a>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
 
             <div class="chef-card">
-
                 <div class="chef-inner">
-
                     <div class="chef-front">
-
-                        <img src="./assets/pngwing.com (1).png" alt="Chef Liam">
-
+                        <img src="https://images.unsplash.com/photo-1759521296013-559479e2a891?auto=format&fit=crop&w=600&h=700&q=80" alt="Chef Liam Carter" loading="lazy">
                     </div>
-
                     <div class="chef-back">
-
                         <h3>Liam Carter</h3>
-
                         <span>Grill Master</span>
-
-                        <p>
-                            Premium steaks cooked over open flame.
-                        </p>
-
+                        <p>Premium steaks cooked over open flame.</p>
                         <div class="chef-social">
-
-                            <a href="#">IG</a>
-                            <a href="#">FB</a>
-                            <a href="#">X</a>
-
+                            <a href="#" aria-label="Instagram">IG</a>
+                            <a href="#" aria-label="Facebook">FB</a>
+                            <a href="#" aria-label="X / Twitter">X</a>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
 
         </div>
 
     </section>
-    <!-- =========================
-PART 6 : LUXURY GALLERY
-Paste after Chefs Section
-========================= -->
 
-    <section class="gallery">
+    <section class="gallery" id="gallery">
 
         <span class="section-tag">Gallery</span>
 
-        <h2 class="section-title">
-            Signature Moments
-        </h2>
+        <h2 class="section-title">Signature Moments</h2>
 
-        <p class="section-desc">
-            Every plate is prepared like a masterpiece.
-        </p>
+        <p class="section-desc">Every plate is prepared like a masterpiece.</p>
 
         <div class="gallery-grid">
 
             <div class="gallery-item tall">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIdj8KZw4jOC_jJ2rw9TYYRRXmJ0MXU31cn4S8Sn3mIw&s=10"
-                    alt="">
+                <img src="https://images.unsplash.com/photo-1676471926534-d5c9771909fa?auto=format&fit=crop&w=800&h=1000&q=80" alt="Signature plated fish dish" loading="lazy">
             </div>
 
             <div class="gallery-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlMJjhykWpcCK88PK93O39hhlOMYZZiEeAbl5AzIGELw&s=10"
-                    alt="">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=700&q=80" alt="Elegant plated dish" loading="lazy">
             </div>
 
             <div class="gallery-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4GjUKCTkqsv8XIlL8QBlNOF_4MXLO8YizsGsakAo-fA&s=10"
-                    alt="">
+                <img src="https://images.unsplash.com/photo-1616671285410-2a676a9a433d?auto=format&fit=crop&w=700&q=80" alt="Fine dining table setting" loading="lazy">
             </div>
 
             <div class="gallery-item wide">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOiqJzsyU5xuDcQzw6CqD9kWgcOc_V8odFYjDGmK6uAg&s=10"
-                    alt="">
+                <img src="https://images.unsplash.com/photo-1621327017866-6fb07e6c96ea?auto=format&fit=crop&w=1100&q=80" alt="Plated dish on wooden table" loading="lazy">
             </div>
 
             <div class="gallery-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa0nyxemg-29obv5vq8Bk2wJRqd-8oaO71Lhb4BCHnRw&s=10"
-                    alt="">
+                <img src="https://images.unsplash.com/photo-1533143708019-ea5cfa80213e?auto=format&fit=crop&w=700&q=80" alt="Chef-plated dish" loading="lazy">
             </div>
 
             <div class="gallery-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVc5AfhhYjtpkGejM2kFnh6P2DWisFbRP1seYakKv5tg&s"
-                    alt="">
+                <img src="https://images.unsplash.com/photo-1694021408920-922ff450c525?auto=format&fit=crop&w=700&q=80" alt="Wine glass on restaurant table" loading="lazy">
             </div>
 
         </div>
 
     </section>
 
-    <!-- LIGHTBOX -->
-
     <div class="lightbox">
-
         <span class="close-lightbox">&times;</span>
-
-        <img id="lightbox-image" src="">
-
+        <img id="lightbox-image" src="" alt="Enlarged gallery photo">
     </div>
-    <!-- =========================
-PART 7 : RESERVATION
-Paste after Gallery Section
-========================= -->
 
-    <section class="reservation">
+    <section class="reservation" id="reservation">
 
         <div class="reservation-left">
 
-            <span class="section-tag">
-                Reservation
-            </span>
+            <span class="section-tag">Reservation</span>
 
-            <h2 class="section-title">
-                Reserve Your Table
-            </h2>
+            <h2 class="section-title">Reserve Your Table</h2>
 
             <p class="section-desc">
                 Book your table online and enjoy a premium dining experience.
@@ -560,36 +348,23 @@ Paste after Gallery Section
             <form id="bookingForm">
 
                 <input type="text" placeholder="Full Name" required>
-
                 <input type="email" placeholder="Email Address" required>
-
                 <input type="tel" placeholder="Phone Number" required>
-
                 <input type="date" required>
-
                 <input type="time" required>
 
                 <select required>
-
-                    <option value="">
-                        Guests
-                    </option>
-
+                    <option value="">Guests</option>
                     <option>1 Person</option>
                     <option>2 People</option>
                     <option>3 People</option>
                     <option>4 People</option>
                     <option>5+</option>
-
                 </select>
 
                 <textarea placeholder="Special Request"></textarea>
 
-                <button class="gold">
-
-                    Book Now
-
-                </button>
+                <button class="gold" type="submit">Book Now</button>
 
             </form>
 
@@ -601,30 +376,17 @@ Paste after Gallery Section
 
         <div class="booking-box">
 
-            <h2>
-                Reservation Confirmed
-            </h2>
-
-            <p>
-                Thank you for booking with Velora.
-            </p>
-
-            <button id="closeBooking">
-
-                Close
-
-            </button>
+            <h2>Reservation Confirmed</h2>
+            <p>Thank you for booking with Velora.</p>
+            <button id="closeBooking">Close</button>
 
         </div>
 
     </div>
 
     <script type="module" src="js/threeScene.js"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
-
     <script src="js/app.js"></script>
 
 </body>
